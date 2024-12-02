@@ -109,4 +109,28 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
 ├── utils/                # Helper functions (e.g., RPQ, caching mechanisms)
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
+```
+## References
 
+- **Research Paper**: [MERCURY: Accelerating DNN Training by Exploiting Input Similarity](https://doi.org/your-paper-doi)
+- **Dataset**: [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+- **Framework**: [PyTorch Official Site](https://pytorch.org/)
+- **GPU Specifications**: [NVIDIA Official Site](https://www.nvidia.com/)
+
+---
+
+## Contributors
+
+### **Vishwa Raj**
+- Custom model design and RPQ (Relaxed Priority Queue) implementation.
+
+### **Hitarth**
+- Dataset preparation and experimental analysis.
+
+### **Kowsalya**
+- Integration with AlexNet, VGG13, and VGG16 models.
+
+### **Poornima Gulur Chakrapani**
+- Performance evaluation and report documentation.
+
+---
