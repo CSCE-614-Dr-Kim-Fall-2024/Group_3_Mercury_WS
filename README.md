@@ -120,7 +120,7 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
 ## Contributors
 
 ### **Vishwa Raj V**
-- Custom model design and RPQ (Relaxed Priority Queue) implementation.
+- Custom model design and RPQ (Random Projection Quantization) implementation.
 
 ### **Hitarth**
 - Dataset preparation and experimental analysis.
