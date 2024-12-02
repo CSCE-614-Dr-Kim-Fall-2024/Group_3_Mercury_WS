@@ -1,4 +1,5 @@
 MERCURY: Accelerating DNN Training by Exploiting Input Similarity
+
 Overview
 This project implements a software-based adaptation of the MERCURY framework, originally proposed as a hardware accelerator for deep neural network (DNN) training. MERCURY utilizes Random Projection with Quantization (RPQ) and a specialized caching mechanism (MCACHE) to optimize training by reusing computations for similar inputs. Our implementation adapts this concept to four DNN architectures:
 
