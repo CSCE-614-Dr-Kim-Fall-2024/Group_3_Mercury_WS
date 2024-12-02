@@ -110,7 +110,7 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
 ```
 ## References
 
-- **Research Paper**: [MERCURY: Accelerating DNN Training by Exploiting Input Similarity](https://doi.org/your-paper-doi)
+- **Research Paper**: [MERCURY: Accelerating DNN Training by Exploiting Input Similarity](https://drive.google.com/file/d/1ttvecDwE-7EKykOCLjjzs0u7xDwHXCzu/view?usp=drive_link)
 - **Dataset**: [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - **Framework**: [PyTorch Official Site](https://pytorch.org/)
 - **GPU Specifications**: [NVIDIA Official Site](https://www.nvidia.com/)
