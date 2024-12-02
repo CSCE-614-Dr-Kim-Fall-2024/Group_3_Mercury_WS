@@ -66,8 +66,8 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
 
 1. Clone the repository:
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone <https://github.com/CSCE-614-Dr-Kim-Fall-2024/Group_3_Mercury_WS>
+    cd Group_3_Mercury_WS
     ```
 
 2. Install dependencies:
@@ -76,37 +76,35 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
     ```
 
 3. Run experiments:
+    go to final_scripts folder.
     - For the custom CNN model:
         ```bash
-        python run_custom_model.py
+        python Cifar10_Baseline_RPQ_Test.py
         ```
     - For AlexNet:
         ```bash
-        python run_alexnet.py
+        python AlexNet_Baseline_RPQ_Test.py
         ```
     - For VGG13:
         ```bash
-        python run_vgg13.py
+        python VGG13_Baseline_RPQ_Test.py
         ```
     - For VGG16:
         ```bash
-        python run_vgg16.py
+        python VGG16_Baseline_RPQ_Test.py
         ```
 
-4. View results:
+5. View results:
     - Training logs and performance metrics are stored in the `results/` directory.
-
 ---
 
 ## Project Structure
 
 ```plaintext
 .
-├── datasets/             # Dataset handling scripts
-├── models/               # DNN model architectures
+├── experiments           # Scripts we used to get it started in the project 
 ├── results/              # Output logs and metrics
-├── scripts/              # Scripts for running experiments
-├── utils/                # Helper functions (e.g., RPQ, caching mechanisms)
+├── final_scripts/        # Scripts for running test scripts
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 ```
@@ -121,7 +119,7 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
 
 ## Contributors
 
-### **Vishwa Raj**
+### **Vishwa Raj V**
 - Custom model design and RPQ (Relaxed Priority Queue) implementation.
 
 ### **Hitarth**
