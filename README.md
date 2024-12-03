@@ -79,32 +79,45 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
     go to final_scripts folder.
     - For the custom CNN model:
         ```bash
-        python Cifar10_Baseline_RPQ_Test.py
+        python Cifar10_Baseline_Test.py
+        python Cifar10_RPQ_Test.py
         ```
     - For AlexNet:
         ```bash
-        python AlexNet_Baseline_RPQ_Test.py
+        python AlexNet_Baseline_Test.py
+        python AlexNet_RPQ_Test.py
         ```
     - For VGG13:
         ```bash
-        python VGG13_Baseline_RPQ_Test.py
+        python VGG13_Baseline_Test.py
+        python VGG13_RPQ_Test.py
         ```
     - For VGG16:
         ```bash
-        python VGG16_Baseline_RPQ_Test.py
+        python VGG16_Baseline_Test.py
+        python VGG16_RPQ_Test.py
         ```
 
 5. View results:
-    - Training logs and performance metrics are stored in the `results/` directory.
+    - Training logs and performance metrics are stored in the `results_outputs/` directory.
+    - Graphs of the outputs is generated using the scripts in the folder result_scripts.
+      Simply have to run the following:
+      ```bash
+        python speed_up.py
+        python cycles.py
+        python adaptivity.py
+      ```
 ---
 
 ## Project Structure
 
 ```plaintext
 .
-├── experiments           # Scripts we used to get it started in the project 
-├── results/              # Output logs and metrics
-├── final_scripts/        # Scripts for running test scripts
+├── experiments           # Scripts we used to get it started in the project
+├── final_scripts         # Scripts for running the model and actual tests we did for evaluating the rpq
+├── notebooks             # also attached the notebook to see the environmnet in which we worked on
+├── result_scripts        # Scripts for getting the graphs
+├── result_outputs        # all the scrrenshots of the outputs like cycles and time taken
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 ```
@@ -119,13 +132,13 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
 
 ## Contributors
 
-### **Vishwa Raj V**
+### **Vishwa Raj Venkatesh**
 - Custom model design and RPQ (Random Projection Quantization) implementation.
 
-### **Hitarth**
+### **Hitarth Shajwani**
 - Dataset preparation and experimental analysis.
 
-### **Kowsalya**
+### **Kowsalya **
 - Integration with AlexNet, VGG13, and VGG16 models.
 
 ### **Poornima Gulur Chakrapani**
