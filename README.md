@@ -138,7 +138,7 @@ For enhanced generalization, a subset of the **80 Million Tiny Images** dataset 
 ### **Hitarth Shajwani**
 - Dataset preparation and experimental analysis.
 
-### **Kowsalya **
+### **Kowsalya Balamuralei Umamaheswari**
 - Integration with AlexNet, VGG13, and VGG16 models.
 
 ### **Poornima Gulur Chakrapani**
